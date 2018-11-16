@@ -1,3 +1,9 @@
+# Playing with React + P5.js
+
+[P5.js](https://p5js.org/) is a library for making art in the browser. Seems cool, let's try it! (Inspired by Elgin-Skye McLaren's talk at CascadiaJS 2018. Her video will be findable on Youtube by 2019 probably?)
+
+
+----
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
