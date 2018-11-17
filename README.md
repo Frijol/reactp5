@@ -1,6 +1,6 @@
 # Playing with React + P5.js
 
-[P5.js](https://p5js.org/) is a library for making art in the browser. Seems cool, let's try it! (Inspired by Elgin-Skye McLaren's talk at CascadiaJS 2018. Her video will be findable on Youtube by 2019 probably?)
+[P5.js](https://p5js.org/) is a library for making art in the browser. Seems cool, let's try it! (Inspired by Elgin-Skye McLaren's [talk at CascadiaJS 2018](https://sea-region.github.com/emclaren/creative-coding-cascadia-2018). Her video will be findable on Youtube by 2019 probably?)
 
 
 ----
