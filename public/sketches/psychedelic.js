@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight)
+  createCanvas(700, 500)
   background(50,2,50)
 }
 
@@ -9,3 +9,5 @@ function draw() {
   ellipse(mouseX, mouseY, 80, 100);
   ellipse(mouseY, mouseX, 80, 100);
 }
+
+new p5(sketch, 'container');
