@@ -1,9 +1,9 @@
 // Write P5 code in this file!
 
 function setup() {
-
+  createCanvas(windowWidth, windowHeight)
 }
 
 function draw() {
-  ellipse(50, 50, 80, 80);
+  ellipse(mouseX, mouseY, 80, 100);
 }
