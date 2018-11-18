@@ -3,18 +3,21 @@
 
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
-  <script>
-    function changeArt () {
-      document.getElementById("sketch")innerHTML = "<script src='./sketches/animation.js'></script>";
-  }
-  </script>
 </head>
 
 <body>
-  <button type="Button" onclick="changeArt()">Change Art</button>
-  <div id="sketch">
-    <script src="./sketches/psychedelic.js"></script>
-  </div>
+  <!-- <button type="Button" onclick="changeArt()">Change Art</button>
+  <script>
+    function changeArt() {
+      document.getElementById("sketch").style.display = "none";
+    }
+  </script> -->
+  <div id="psychedelic"></div>
 </body>
+
+<script src="./sketches/psychedelic.js"></script>
+<script>
+  psychedelic()
+</script>
 
 </html>

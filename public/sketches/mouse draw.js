@@ -1,10 +1,13 @@
-function setup() {
-  createCanvas(windowWidth, windowHeight)
-  background(230,55,138)
-}
+var mouseDraw = function (p) {
+  function setup() {
+    createCanvas(windowWidth, windowHeight)
+    background(230,55,138)
+  }
 
-function draw() {
-  noStroke()
-  fill(3,4,2)
-  ellipse(mouseX, mouseY, 80, 100);
+  function draw() {
+    noStroke()
+    fill(3,4,2)
+    ellipse(mouseX, mouseY, 80, 100);
+  }
 }
+new p5(mouseDraw, 'container');
